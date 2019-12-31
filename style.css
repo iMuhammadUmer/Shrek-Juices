@@ -1,0 +1,1096 @@
+*
+{
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.container
+{
+    width: auto;
+    background: white;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+header
+{
+    width: 1348px;
+    background:url(images/bg/header.png);
+    height: 350px;  
+}
+section
+{
+    height: 2000px;
+    background: #181817;
+    width: 1348px;
+}
+.contactsection
+{
+    height: 1050px;
+    background: #181817;
+    width: 1348px;
+}
+.careersformsection
+{
+    height: 861px;
+    background: #181817;
+    width: 1348px;
+}
+.franchiseesection
+{
+    height: 1906px;
+    background: #181817;
+    width: 1348px; 
+}
+.menusection
+{
+    height: 2250px;
+    background: #181817;
+    width: 1348px;
+}
+.careersection
+{
+    height: auto;
+    background: #181817;
+    width: 1348px;
+}
+.smoothiessection
+{
+    height: 3000px;
+    background: #181817;
+    width: 1348px;
+}
+.tastysection
+{
+    height: 1500px;
+    background: #181817;
+    width: 1348px;
+}
+.alohapineapplesection
+{
+    height:1350px;
+    background:#181817;
+    width: 1348px;
+}
+.ingsection
+{
+    height: 1000px;
+    background: #181817;
+    width: 1348px;
+}
+.energybowlsection
+{
+	height: 1850px;
+    background: #181817;
+    width: 1348px;
+}
+.privacycontent
+{
+	height: auto;
+	width: 1000px;
+}
+.shotssection
+{
+	height: 1100px;
+    background: #181817;
+    width: 1348px;
+}
+.cateringsection
+{
+    height: 775px;
+    background: #181817;
+    width: 1348px;
+}
+.aboutussection
+{
+    height: auto;
+    background: #181817;
+    width: 1348px;
+}
+.locationsection
+{
+    height: 1000px;
+    background: #181817;
+    width: 1348px;
+}
+.talktoussection
+{
+    height: 1100px;
+    background: #181817;
+    width: 1348px;
+}
+.catering2section
+{
+    height: auto;
+    background: #181817;
+    width: 1348px;
+}
+.freshsqueezedjuices
+{
+	height: 4150px;
+    background: #181817;
+    width: 1348px;
+}
+.xfooter
+{
+    height: 350px;
+    background: url(images/bg/footerimage.png);
+    width: 1348px;	
+}
+.slider
+{
+    height: 1076px;
+    width: 1348px; 
+}
+
+.logodiv
+{
+    height: 250px;
+    background: url(images/logo/logo.png);
+    background-size: 250px 250px;
+    width: 250px;
+    float: left
+}
+.namediv
+{
+    height: 160px;
+    background: url(images/logo/name.png);
+    background-size: 800px 160px;
+    width: 800px;
+    margin-left: 350px;
+}
+nav
+{
+    width: 1148px;
+	height:94px;
+    font-size: 20px;
+    border-radius: 10px 20px 12px;
+    line-height: 136px;
+    margin-right: 440px;
+}
+li
+{
+	display:inline;
+	padding:10px;
+    font-weight: bolder;
+	font-size:18px;
+}
+li:hover
+{
+	display:inline;
+	padding:10px;
+}
+ul
+{
+    margin-right: 20px; 
+}
+.headingfont
+{
+    color: aliceblue;
+    font-family: sans-serif, Arial;
+    font-size: 50;   
+}
+.headingfont2
+{
+    color: aliceblue;
+    font-family: sans-serif, Arial;
+    font-size: 30;   
+}
+.subheadingfont
+{
+    color: aliceblue;
+    font-family: sans-serif, Arial;
+    font-size: 20;   
+}
+.paragraphfont
+{
+    /* margin-left: 10px; */
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+            /*READMORE BUTTON CSS START */
+.buttonhome {
+  border-radius: 4px;
+  background-color: #181817;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonhome span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonhome span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonhome:hover span {
+  padding-right: 25px;
+}
+
+.buttonhome:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+                /*READMORE BUTTON CSS END */
+
+
+                /*SEE ALL BUTTON CSS START */
+.buttonseeall {
+  border-radius: 4px;
+  background-color: /*#f4511e*/ #181817;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonseeall span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonseeall span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonseeall:hover span {
+  padding-right: 25px;
+}
+
+.buttonseeall:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+                /*SEE ALL BUTTON CSS END */
+                
+
+
+               /*SEE ALL BUTTON CSS START*/
+
+.buttonmenu {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonmenu:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttonmenu:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+                   
+               /*SEE ALL BUTTON CSS END*/
+
+               
+
+
+
+                     /*home start*/
+.homeleftdiv
+{
+    width: 450px;
+    background: url(images/home/OIUG6U0.png);
+    background-size: 450px 450px;
+    height: 450px;  
+    float:left;
+    margin-left: 100px;
+}
+.homerightdiv
+{
+    width: 574px;
+    border-radius: 4px;
+    height: 400px; 
+    float: right;
+    margin-right: 100px;
+}
+.lastimage
+{
+    width: 1348px;
+    background: url(images/home/lastimage.png);
+    height: 320px;
+}
+.NEWSheading
+{
+    width: 150px;
+    height: 70px;
+    float: left; 
+    margin-left: 150px;
+}
+.line
+{
+    width: 90%;
+    background: white;
+    height: 2px;
+}
+.linetwo
+{
+    width: 90%;
+    background: white;
+    height: 5px;
+    margin-top: 150px;
+}
+.flavourleft
+{
+    width: 500px;
+    
+    height: 200px;
+    float: left;
+    margin-left: 70px;   
+}
+.flavourleftsubdivone
+{
+    width: 120px;
+    background: url(images/menu/smoothies/aloha-pineapple-prod.jpg);
+	box-shadow: 10px 10px 5px black;
+    background-size: 120px 100px;
+    
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+}
+.flavourleftsubdivtwo
+{
+    width: 330px;
+    
+    height: 200px;
+    float: right;
+    
+}
+.flavourright
+{
+    width: 500px;
+    
+    height: 200px;
+    float: right;
+    margin-right: 70px;    
+}
+.flavourrightsubdivone
+{
+    width: 120px;
+    background: url(images/menu/FreshSqueezedJuices/CucumberOrangeCooler.jpg);
+    box-shadow: 10px 10px 5px black;
+    background-size: 120px 100px;
+    
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+}
+.flavourrightsubdivtwo
+{
+    width: 330px;
+    
+    height: 200px;
+    float: right;
+    
+}
+.verticalline
+{
+    height: 300px;
+    background: orange;
+    width: 2px;
+}
+.videodiv
+{
+    width: 1348px;  
+    height: 900px;
+}
+                    /*home end*/
+
+                    /*menu css start*/
+
+.sectionheadingdiv
+{
+    height: 100px;
+    width: 600px;
+    font-family:"sans-serif, Arial";
+}  
+.sectionparadiv
+{
+    height: auto;
+    font-family:"sans-serif, Arial";
+    width: 800px;
+}
+.sectionline
+{
+    width: 1000px;
+    background-color: white;
+    opacity: 0.7;
+    height: 3px;
+}
+.divone
+{
+    width: 1000px;
+    height: 250px;
+}
+.divoneleft
+{
+    width: 250px;
+    background: url(images/menu/DPft22bXkAEzk4W.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divoneright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divtwo
+{
+    width: 1000px;
+    height: 250px;
+}
+.divtwoleft
+{
+    width: 250px;
+    background: url(images/menu/ChunkyStrawberry.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divtworight
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divthree
+{
+    width: 1000px;
+    height: 250px;
+}
+.divthreeleft
+{
+    width: 250px;
+    background: url(images/menu/CategoryShots.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divthreeright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divfour
+{
+    width: 1000px;
+    height: 250px;
+}
+.divfourleft
+{
+    width: 250px;
+    background: url(images/menu/OrangeJuice240.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divfourright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divfive
+{
+    width: 1000px;
+    height: 250px;
+}
+.divfiveleft
+{
+    width: 250px;
+    background: url(images/menu/oatmeal-bowl.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divfiveright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divsix
+{
+    width: 1000px;
+    height: 250px;
+}
+.divsixleft
+{
+    width: 250px;
+    background: url(images/menu/category-image_Kids-Strawberries_Gone_Bananas.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divsixright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divseven
+{
+    width: 1000px;
+    height: 250px;
+}
+.divsevenleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divsevenright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.diveight
+{
+    width: 1000px;
+    height: 250px;
+}
+.diveightleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.diveightright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divnine
+{
+    width: 1000px;
+    height: 250px;
+}
+.divnineleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divnineright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divten
+{
+    width: 1000px;
+    height: 250px;
+}
+.divtenleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divtenright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.diveleven
+{
+    width: 1000px;
+    height: 250px;
+}
+.divelevenleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divelevenright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divtwelve
+{
+    width: 1000px;
+    height: 250px;
+}
+.divtwelveleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divtwelveright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.divthirteen
+{
+    width: 1000px;
+    height: 250px;
+}
+.divthirteenleft
+{
+    width: 250px;
+    background: url(images/menu/AcaiSuperAntiOx624.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    float: left;
+}
+.divthirteenright
+{   
+    width: 720px;
+    height: 250px;
+    float: right;
+}
+.lastimage
+{
+    height: 200px;
+    background: url(images/menu/lastimage.jpg);
+    background-size: 1348px 200px;
+    width: 1348px;
+    margin-top: 750px;
+}
+
+                    /*menu css ends*/
+
+            /*ALOHA PINEAPPLE CSS START*/
+.pineapplediv
+{   
+    width: 1000px;
+    height: 400px;
+}
+.pineappledivleft
+{   
+    width: 350px;
+    background: url(images/menu/smoothies/aloha-pineapple-prod.jpg);
+    background-size: 350px 330px;
+    height: 330px;
+    float: left;
+}
+.pineappledivright
+{   
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+.secondleftdiv
+{
+    width: 480px;
+    height: 450px;
+    float: left;
+    margin-left: 50px;
+}
+.secondrightdiv
+{
+    width: 480px; 
+    height: 450px;
+    float: right;
+    margin-right: 50px;
+
+}
+.line
+{
+    height: 1px;
+    background-color: orange;
+    width: 50%;
+    opacity: 0.4;
+}
+.boldline
+{
+    height: 3px;
+    background-color: orange;
+    width: 50%; 
+}
+
+
+
+            /*ALOHA PINEAPPLE CSS END*/
+
+
+
+                    /*FOOTER START*/
+
+.footerrightdiv
+{
+    height: 300px;
+    width:auto;
+    float: right;
+    display: inline-block;
+  
+}
+.l
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 130px;
+}
+.r
+{
+    height: 200px;
+    
+    width: 200px;
+    float: right;
+    margin-right: 130px;
+}
+.footerleftdiv
+{
+    height:300px;
+    width:auto;
+    float: left;
+}
+.divl
+{  
+    height: 300px;
+    width: 337px;
+    float: left;
+}
+.divr
+{
+    height: 300px;
+    width: 337px;
+    float: right; 
+}
+                    
+
+                        /*CATERING START*/
+.cateringsec
+{
+    height: 900px;
+    width: 1000px;
+}
+.cateringimgae
+{
+    width: 1348px;
+    height: 546px;
+    background: url(images/catering/image2.png);
+    background-size: 1348px 546px;
+}
+                        /*CATERING END*/
+
+
+                    /*FOOTER CLOSE*/
+
+                    /*Form  START*/
+
+input
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 1px;
+    padding: 12px 30px;
+    margin: 12px 12px;
+}
+input[type=email]
+{
+    width: 300px;
+}
+input[type=text2]
+{
+    width: 630px;
+
+}
+textarea
+{
+    width: 50%;
+    height: 150px;
+    padding: 12px 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+select
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 1px;
+    padding: 12px 30px;
+    margin: 12px 12px;  
+}
+.area2
+{
+    height: 120px;
+    background: white;
+    width: 300px;
+    margin-right: 185px;
+    float: right
+}
+input[type=submit]
+{
+    background: orange;
+    width: 15%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.image
+{
+    margin-left: 200px;
+    width:109;
+    height:179;
+}
+.image2
+{
+    width: 1348px;
+    background: url(images/catering/image3.png);
+    background-size: 1348px 181px;
+    height: 181px;
+}
+.image3
+{
+    width: 1348px;
+    background: url(images/catering/image4.png);
+    background-size: 1348px 275px;
+    height: 275px;
+}
+d1
+{
+    height: 100px;
+    background-color: darkgoldenrod;
+    width: 100px;
+}
+d2
+{
+    height: 100px;
+    background: red;
+    float: left;
+    width: 100px;
+}
+d3
+{
+    height: 100px;
+    background: red;
+    float: right;
+    width: 200px;
+}  
+                        /*FROM ENDS*/
+
+
+                        /*ABOUT US START*/
+.aboutussec
+{
+    height: 600px;
+    width: 800px;
+}  
+.topimage
+{
+    width: 1348px;
+    background: url(images/aboutus/photo.jpg);
+    height: 818px;
+} 
+.aboutusdiv
+{
+    width: 1348px;
+    background: #4AA842;
+    height: 650px;
+} 
+.lineaboutus
+{
+    height: 4px;
+    background: white;
+    width: 600px;
+}  
+.mainimage
+{
+    height: 1400px;
+    background: url(images/aboutus/mainimage.png);
+    background-size: 1348px 1454px;
+    width: 1348px;
+} 
+.mainimgdiv
+{
+    height: 300px;
+   
+    width: 600px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 100px;
+} 
+.op
+{
+    width: 550px;
+    float: right;
+   
+    height: 90px;
+} 
+.linkimg
+{
+    margin-top: 20px;
+    width: 294px;
+    height: 43px;
+    background: url(images/aboutus/menulnk.png);
+    background-size: 294px 43px;
+}
+.ladyimg
+{
+    height: 656px;
+    background: url(./images/aboutus/mainimage2.png);
+    background-size: 1248px 656px;
+    width: 1248px;
+}   
+.partner
+{
+    width:1348px;
+    background: url(images/aboutus/partners.png);
+    height: 722px;
+}
+.community
+{
+    width: 1348px;
+    background: url(images/aboutus/2.png);
+    height: 204px;
+}
+                    /*ABOUT US ENDS*/
+
+                    
+
+                    /*Franchise Start*/                
+.franchisee
+{
+    width: 1348px;
+    background-color: white;
+    height: 400px;
+}                    
+.franchisee2
+{
+    height: 670px;
+    background-color: #EFF4E4;
+    width: 1348px;   
+}
+.oper
+{
+    width: 320px;
+    background-image: url(images/franchisee/oper.png);
+    height: 42px;
+}
+                               /* TIPS DIV */
+.tipsL
+{
+	height:178px;
+    float: left;
+	width:1000px;
+}
+
+.tipsR
+{
+    height:190px;
+    margin-top: 90px;
+    float: right;
+    width:1000px;
+}
+
+.tips2L
+{
+    height:140px;
+    float: left;
+    margin-top: 90px;
+    width:1000px;
+}
+
+.tips2R
+{
+    height:136px;
+    margin-top: 90px;
+    float: right;
+    width:1000px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.aboutDes {
+    font-size: 18px;
+    letter-spacing: 1px;
+}

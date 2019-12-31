@@ -1,0 +1,164 @@
+*
+{
+    margin: auto;
+}
+.container
+{
+    height: 750px;
+    width: 100%;
+}
+section
+{
+	width: 1348px;
+	background-color: orange;
+	height: 820px;
+}
+.logo
+{
+    height: 150px;
+    background:url(images/logo/logo.png);
+	background-size: 150px 150px;
+    width: 150px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    text-align: justify;
+     margin-left: 10px;
+    font-family: cursive;
+}
+h5
+{
+    text-align: justify;
+    margin-left: 5px;
+}
+.maindiv
+{
+    height: 790px;
+    background: white;
+    width: 718px;
+    float: right;
+    margin-right: 250px;
+	border-radius: 19px 19px 19px;
+}
+.maindiv2
+{
+    height: 700px;
+    background: white;
+    width: 718px;
+    float: right;
+    margin-right: 250px;
+	border-radius: 19px 19px 19px;
+}
+.headingfont
+{
+    color: aliceblue;
+    font-family: sans-serif, Arial;
+    font-size: 45;   
+}
+.leftnav
+{
+    height: 600px;
+    float: left;
+  
+    width: 220px;
+    margin-left: 160px;
+}
+.parasec
+{
+	height: auto;
+	
+	width: 650px;
+}
+input
+{
+	width: 300px;
+	height: 30px;
+}
+textarea
+{
+	height: 100px;
+	width: 600px;
+}
+p{
+    font-family: cursive;
+    text-align: justify;
+}
+.buttonhome {
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonhome span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonhome span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonhome:hover span {
+  padding-right: 25px;
+}
+
+.xfooter
+{
+    height: 350px;
+    background: url(images/bg/footerimage.png);
+    width: 1348px;	
+}
+
+.footerleftdiv
+{
+    height:300px;
+    width:auto;
+    float: left;
+}
+.divl
+{  
+    height: 300px;
+    
+    width: 337px;
+    float: left;
+}
+.divr
+{
+    height: 300px;
+    
+    width: 337px;
+    float: right; 
+}
+      
+.footerrightdiv
+{
+    height: 300px;
+    width:auto;
+    float: right;
+    display: inline-block;
+  
+}
+
+.buttonhome:hover span:after {
+  opacity: 1;
+  right: 0;
+}
